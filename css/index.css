@@ -100,12 +100,7 @@ img{
 	width:100%;
 	height:100%;
 }
-#bgcontent{
-	height: 2238px;
-}
-#bgcontent .img{
-	height: 2137px;
-}
+
 .page1 .logo{
 	position: absolute;
 	font-size: 15px;
@@ -220,39 +215,9 @@ img{
 	width: 100%;
 	height: 100%;
 }
-.page8 .jingxi{
-	position: absolute;
-	top:40px;
-	width: 85px;
-	height: 68px;
-}
-.page8 .title{
-	position: relative;
-	margin-top: 60px;
-	color: #fff;
-}
-.page8 .jingxi p{
-	position: absolute;
-	text-align: center;
-	width: 100%;
-	top: 50%;
-	transform:rotate(-30deg);
-	margin-left: -5px;
-	margin-top: -10px;
-	line-height: 20px;
-	font-size: 18px;
-	color: #fff;
-}
-.page8 .twocode{
-	position: absolute;
-	bottom: 100px;
-	width: 100%;
-}
-.page8 .bg{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-}
+
+
+
 #btn{
 	display:block;
 	color:#cd8b56;
