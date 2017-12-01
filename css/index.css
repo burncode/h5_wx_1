@@ -23,7 +23,7 @@ body {
   width: 100%;
   height: 100%;
   max-width: 680px;
-  background-color: #040000;
+  background-color: #ffffff;
 }
 .audio-source {
   display: none;
@@ -51,14 +51,6 @@ body {
 }
 .swiper-container-scrollbar .swiper-slide {
   height: auto;
-}
-.page1,
-.page2,
-.page3,
-.page4,
-.page5,
-.page6 {
-  position: relative;
 }
 .fot_arrow {
   width: 100%;
@@ -110,124 +102,6 @@ body {
   width: 100%;
   height: 100%;
 }
-img {
-  width: 100%;
-  height: 100%;
-}
-.page1 .logo {
-  position: absolute;
-  font-size: 15px;
-}
-.page1 .kofuf {
-  position: absolute;
-  top: 1.2rem;
-  font-size: 24px;
-  width: 100%;
-}
-.page1 .title {
-  position: absolute;
-  top: 2.5rem;
-  font-size: 28px;
-  left: 50%;
-  width: 200px;
-  margin-left: -100px;
-}
-.page1 .img {
-  position: absolute;
-  font-size: 40px;
-  height: 282px;
-  width: 5rem;
-  left: 50%;
-  bottom: 2.1rem;
-  margin-left: -2.5rem;
-}
-.page1 .time {
-  position: absolute;
-  bottom: 1.5rem;
-  font-size: 14px;
-  width: 100%;
-  text-align: center;
-}
-.page1 .address {
-  position: absolute;
-  bottom: 1rem;
-  font-size: 14px;
-  text-align: center;
-  width: 100%;
-}
-.page1 .line {
-  position: absolute;
-  bottom: 0rem;
-  text-align: center;
-  width: 100%;
-}
-.page2 .p1 {
-  margin-top: 1rem;
-  font-size: 14px;
-  width: 120%;
-  margin-left: -10%;
-  text-align: center;
-}
-.page2 .p2 {
-  width: 120%;
-  margin-left: -10%;
-  margin-top: 0.5rem;
-  font-size: 14px;
-  text-align: center;
-}
-.page2 .p3 {
-  width: 120%;
-  margin-left: -10%;
-  margin-top: 0.3rem;
-  font-size: 14px;
-  text-align: center;
-}
-.page2 .p4 {
-  width: 120%;
-  margin-left: -10%;
-  margin-top: 0.3rem;
-  font-size: 14px;
-  text-align: center;
-}
-.page2 .p5 {
-  width: 120%;
-  margin-left: -10%;
-  margin-top: 0.3rem;
-  font-size: 14px;
-  text-align: center;
-}
-.page2 .line {
-  position: absolute;
-  bottom: 0rem;
-  text-align: center;
-  width: 100%;
-}
-.page2 img {
-  width: 100%;
-}
-.page3 {
-  height: 100%;
-}
-.page3 .p1 {
-  font-size: 14px;
-  width: 100%;
-  text-align: center;
-}
-.page3 .bg {
-  position: absolute;
-}
-.page3 .wz {
-  width: 100%;
-  position: absolute;
-}
-.page3 .wz img {
-  margin: 0 auto;
-  display: block;
-}
-.page3 img {
-  width: 100%;
-  height: 100%;
-}
 #btn {
   display: block;
   color: #cd8b56;
@@ -243,4 +117,20 @@ img {
   font-size: 20px;
   left: 50%;
   text-decoration: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.page1,
+.page2,
+.page3,
+.page4,
+.page5,
+.page6 {
+  position: relative;
+}
+.page1 .logo {
+  position: absolute;
+  font-size: 15px;
 }
