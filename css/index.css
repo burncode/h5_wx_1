@@ -121,6 +121,7 @@ body {
 img {
   width: 100%;
   height: 100%;
+  display: block;
 }
 .page1,
 .page2,
@@ -133,4 +134,253 @@ img {
 .page1 .logo {
   position: absolute;
   font-size: 15px;
+}
+.page16 .p16-1 {
+  margin-top: .4rem;
+}
+.page16 .p16-2 {
+  margin-top: .5rem;
+}
+.page16 .p16-3 {
+  margin-top: .8rem;
+}
+.page16 .p16-4 {
+  margin-top: 1rem;
+}
+.page16 .p16-5 {
+  margin-top: .5rem;
+}
+.page16 .p16-6 {
+  position: absolute;
+  bottom: .8rem;
+}
+.page17 .p17-1 {
+  margin-top: .4rem;
+}
+.page17 .p17-2 {
+  margin-top: .5rem;
+}
+.page17 .p17-3 {
+  margin-top: .8rem;
+}
+.page17 .p17-4 {
+  margin-top: .8rem;
+}
+.page17 .p17-5 {
+  position: absolute;
+  bottom: 0rem;
+}
+.page18 .p18-1 {
+  margin-top: .4rem;
+}
+.page18 .p18-2 {
+  margin-top: .5rem;
+}
+.page18 .p18-3 {
+  margin-top: .8rem;
+}
+.page18 .p18-4 {
+  margin-top: .5rem;
+}
+.page18 .p18-5 {
+  margin-top: .5rem;
+}
+.page18 .p18-6 {
+  position: absolute;
+  bottom: .4rem;
+}
+.page19 .p19-1 {
+  margin-top: .4rem;
+}
+.page19 .p19-2 {
+  margin-top: .2rem;
+}
+.page19 .p19-3 {
+  margin-top: .4rem;
+}
+.page19 .p19-4 {
+  margin-top: .2rem;
+}
+.page19 .p19-5 {
+  position: absolute;
+  bottom: .4rem;
+}
+.page20 .p20-1 {
+  margin-top: .4rem;
+}
+.page20 .p20-2 {
+  margin-top: 2.2rem;
+}
+.page20 .p20-3 {
+  margin-top: .4rem;
+}
+.page20 .p20-4 {
+  margin-top: .9rem;
+}
+.page20 .p20-5 {
+  position: absolute;
+  bottom: .4rem;
+}
+.page20 .p20-6 {
+  position: absolute;
+  top: .9rem;
+}
+.page21 .p21-1 {
+  margin-top: .4rem;
+}
+.page21 .p21-2 {
+  margin-top: .4rem;
+}
+.page21 .p21-3 {
+  margin-top: 1.2rem;
+}
+.page21 .p21-4 {
+  margin-top: .9rem;
+}
+.page21 .p21-5 {
+  position: absolute;
+  bottom: .3rem;
+}
+.page22 .p22-1 {
+  margin-top: .4rem;
+}
+.page22 .p22-2 {
+  margin-top: .9rem;
+}
+.page22 .p22-3 {
+  margin-top: .5rem;
+}
+.page22 .p22-4 {
+  margin-top: .9rem;
+}
+.page22 .p22-5 {
+  position: absolute;
+  bottom: .3rem;
+}
+.page23 .p23-1 {
+  margin-top: .4rem;
+}
+.page23 .p23-2 {
+  margin-top: .9rem;
+}
+.page23 .p23-3 {
+  position: absolute;
+  bottom: .4rem;
+}
+.page24 .p24-1 {
+  margin-top: .4rem;
+}
+.page24 .p24-2 {
+  margin-top: .9rem;
+}
+.page24 .p24-3 {
+  position: absolute;
+  bottom: .4rem;
+}
+.page24 .p24-5 {
+  position: absolute;
+  top: .4rem;
+}
+.page25 .p25-1 {
+  margin-top: .4rem;
+}
+.page25 .p25-2 {
+  margin-top: .2rem;
+}
+.page25 .p25-3 {
+  margin-top: .2rem;
+}
+.page25 .p25-4 {
+  margin-top: .2rem;
+}
+.page25 .p25-5 {
+  position: absolute;
+  bottom: .4rem;
+}
+.page26 .p26-1 {
+  margin-top: .4rem;
+}
+.page26 .p26-2 {
+  margin-top: .2rem;
+}
+.page26 .p26-3 {
+  margin-top: .8rem;
+}
+.page26 .p26-4 {
+  position: absolute;
+  bottom: .4rem;
+}
+.page27 .p27-1 {
+  margin-top: .4rem;
+}
+.page27 .p27-2 {
+  margin-top: .2rem;
+}
+.page27 .p27-3 {
+  margin-top: .8rem;
+}
+.page27 .p27-4 {
+  position: absolute;
+  bottom: 0rem;
+}
+.page28 .p28-1 {
+  margin-top: .9rem;
+}
+.page28 .p28-2 {
+  margin-top: 0rem;
+}
+.page28 .p28-3 {
+  margin-top: 0rem;
+}
+.page28 .p28-1-icon {
+  margin-top: 1rem;
+  position: absolute;
+}
+.page28 .p28-2-icon {
+  margin-top: 2.6rem;
+  position: absolute;
+}
+.page28 .p28-3-icon {
+  margin-top: 4.5rem;
+  position: absolute;
+}
+.page28 .p28-4-icon {
+  margin-top: 6.9rem;
+  position: absolute;
+}
+.page28 .p28-5-icon {
+  margin-top: 8.5rem;
+  position: absolute;
+}
+.page29 .p29-1 {
+  margin-top: .4rem;
+}
+.page29 .p29-2 {
+  margin-top: .2rem;
+}
+.page29 .p29-3 {
+  margin-top: .8rem;
+}
+.page29 .p29-3 {
+  margin-top: .8rem;
+}
+.page29 .p29-3 {
+  margin-top: .8rem;
+}
+.page29 .p29-line {
+  position: absolute;
+  top: 1.9rem;
+}
+.page30 .p30-1 {
+  margin-top: 0rem;
+}
+.page30 .p30-2 {
+  margin-top: 0rem;
+}
+.page30 .p30-3 {
+  margin-top: 0rem;
+}
+.page30 .p30-4 {
+  position: absolute;
+  bottom: 0rem;
 }
