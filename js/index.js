@@ -37,7 +37,7 @@ window.shareData = {
   title:document.title,
   link:location.href,
   imgUrl:"http://m.51xy8.com/static/img_h5/h5_logo.png",
-  desc:"功夫财经",
+  desc:"新中产报告 · 功夫财经",
 }
 console.log(isWeiXin());
 if (isWeiXin()) {
