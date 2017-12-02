@@ -1,30 +1,31 @@
 var flag=true;
+var audio = document.getElementById('audio-source');
+var music = document.getElementById('music');
+music.onclick=function (event) {
+  if (flag) {
+    event.target.style.backgroundPosition='left';
+    flag=false;
+    audio.pause();
+  }else{
+    event.target.style.backgroundPosition='right';
+    flag=true;
+    audio.play();
+  }
+}
 
 if (!browserRedirect()) {
   alert("请在微信中打开");
   var dom = document.getElementById("content").style.display = "none"
-  // audio.pause();
+  audio.pause();
 }else{
   var dom = document.getElementById("content").style.display = "block"
-  // audio.play();
+  audio.play();
 }
 /* 是否设置背景音乐 */
-// music()
+
 
 function music(params) {
-  var music = document.getElementById('music');
-  var audio = document.getElementById('audio-source');
-  music.onclick=function (event) {
-    if (flag) {
-      event.target.style.backgroundPosition='right';
-      flag=false;
-      audio.pause();
-    }else{
-      event.target.style.backgroundPosition='left';
-      flag=true;
-      audio.play();
-    }
-  }
+
 } 
 
 
