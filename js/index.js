@@ -18,6 +18,7 @@ music.onclick=function (event) {
 window.onload=function () {
   setTimeout(function () {
     music.click();
+    music.click();
   },12);
 }
 setTimeout(function(){
