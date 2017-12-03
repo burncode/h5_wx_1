@@ -248,13 +248,13 @@ img {
   margin-top: .4rem;
 }
 .page18 .p18-2 {
-  margin-top: .5rem;
+  margin-top: .2rem;
 }
 .page18 .p18-3 {
-  margin-top: .4rem;
+  margin-top: .3rem;
 }
 .page18 .p18-4 {
-  margin-top: .3rem;
+  margin-top: .2rem;
 }
 .page18 .p18-5 {
   margin-top: 0rem;
@@ -312,7 +312,7 @@ img {
   margin-top: .4rem;
 }
 .page20 .p20-2 {
-  margin-top: 2.2rem;
+  margin-top: 1.4rem;
 }
 .page20 .p20-3 {
   margin-top: .4rem;
@@ -335,10 +335,10 @@ img {
   margin-top: .4rem;
 }
 .page21 .p21-3 {
-  margin-top: 1.2rem;
+  margin-top: 1rem;
 }
 .page21 .p21-4 {
-  margin-top: .9rem;
+  margin-top: .6rem;
 }
 .page21 .p21-5 {
   position: absolute;
