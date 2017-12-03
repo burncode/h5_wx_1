@@ -52,7 +52,7 @@ window.shareData = {
   title:document.title,
   link:location.href,
   imgUrl:"http://m.51xy8.com/static/img_h5/h5_logo.png",
-  desc:"新中产报告 · 功夫财经",
+  desc:"2017新中产资产配置报告",
 }
 console.log(isWeiXin());
 if (isWeiXin()) {
