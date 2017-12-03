@@ -51,7 +51,7 @@ window.HOST='http://api.51xy8.com'
 window.shareData = {
   title:document.title,
   link:location.href,
-  imgUrl:"http://m.51xy8.com/h5_wx/img/icon.png",
+  imgUrl:"http://m.51xy8.com/static/img_h5/h5_logo.png",
   desc:"2017新中产资产配置报告",
 }
 console.log(isWeiXin());
