@@ -13,6 +13,24 @@ music.onclick=function (event) {
   }
 }
 
+/* 兼容iPhone背景音乐自动播放 */
+
+window.onload=function () {
+  setTimeout(function () {
+    music.click();
+  },12);
+}
+setTimeout(function(){
+  // $(window).scrollTop(1);
+},0);
+audio.play();
+document.addEventListener("WeixinJSBridgeReady", function () {
+ WeixinJSBridge.invoke('getNetworkType', {}, function (e) {
+   audio.play();
+ });
+}, false);
+
+
 if (!browserRedirect()) {
   alert("请在微信中打开");
   var dom = document.getElementById("content").style.display = "none"
@@ -21,12 +39,7 @@ if (!browserRedirect()) {
   var dom = document.getElementById("content").style.display = "block"
   audio.play();
 }
-/* 是否设置背景音乐 */
 
-
-function music(params) {
-
-} 
 
 
 
